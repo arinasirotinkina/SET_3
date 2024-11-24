@@ -180,10 +180,10 @@ int main() {
     }
 
     st.saveResults("RandomArray_merge_sort_results.txt", mergeSortResultsRandom);
-    st.saveResults("RandomArray_hybrid_sort_results.txt", mergeSortResultsRandom);
-    st.saveResults("ReversedArray_merge_sort_results.txt", mergeSortResultsRandom);
-    st.saveResults("ReversedArray_hybrid_sort_results.txt", mergeSortResultsRandom);
-    st.saveResults("NearlySortedArray_merge_sort_results.txt", mergeSortResultsRandom);
-    st.saveResults("NearlySortedArray_hybrid_sort_results.txt", mergeSortResultsRandom);
+    st.saveResults("RandomArray_hybrid_sort_results.txt", hybridSortResultsRandom);
+    st.saveResults("ReversedArray_merge_sort_results.txt", mergeSortResultsReversed);
+    st.saveResults("ReversedArray_hybrid_sort_results.txt", hybridSortResultsReversed);
+    st.saveResults("NearlySortedArray_merge_sort_results.txt", mergeSortResultsNearlyS);
+    st.saveResults("NearlySortedArray_hybrid_sort_results.txt", hybridSortResultsNearlyS);
     return 0;
 }
